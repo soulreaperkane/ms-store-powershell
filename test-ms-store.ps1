@@ -20,18 +20,18 @@ Set-Location -Path $PSScriptRoot
 $filesToSearch = @(
     "DesktopAppInstaller.AppxBundle",
     "DesktopAppInstaller.xml",
-    "NET.Native.Framework.1.6_1.6.24903.0_x64.Appx",
-    "NET.Native.Framework.1.6_1.6.24903.0_x86.Appx",
-    "NET.Native.Runtime.1.6_1.6.24903.0_x64.Appx",
-    "NET.Native.Runtime.1.6_1.6.24903.0_x86.Appx",
+    "NET.Native.Framework.x64.Appx",
+    "NET.Native.Framework.x86.Appx",
+    "NET.Native.Runtime.x64.Appx",
+    "NET.Native.Runtime.x86.Appx",
     "StorePurchaseApp.xml",
-    "StorePurchaseApp_11808.1001.413.0_neutral.AppxBundle",
-    "VCLibs.140.00_14.0.26706.0_x64.Appx",
-    "VCLibs.140.00_14.0.26706.0_x86.Appx",
-    "WindowsStore_8wekyb3d8bbwe.xml",
-    "WindowsStore_11809.1001.713.0_neutral.AppxBundle",
-    "XboxIdentityProvider_8wekyb3d8bbwe.xml",
-    "XboxIdentityProvider_12.45.6001.0_neutral.AppxBundle"
+    "StorePurchaseApp.AppxBundle",
+    "VCLibs.x64.Appx",
+    "VCLibs.x86.Appx",
+    "WindowsStore.xml",
+    "WindowsStore.AppxBundle",
+    "XboxIdentityProvider.xml",
+    "XboxIdentityProvider.AppxBundle"
 )
 
 # Initialize an array to hold found file paths
